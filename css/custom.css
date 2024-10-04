@@ -2,11 +2,11 @@
 #aside-content > .card-widget.card-info {
 background: linear-gradient(
     -45deg,
-    #01ffd5,
-    #19c9f1,
-    #90eff2,
-    #bdbdf0,
-    #deb7da
+    #bdeffa,
+    #c4ecff,
+    #d4e5ff,
+    #efeaff,
+    #fdedff
 );
 box-shadow: 0 0 5px rgb(129, 144, 144);
 position: relative;

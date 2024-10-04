@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/posts/d87f7e0c/"/>
+      <url>/posts/d87f7e0c/</url>
+      
+        <content type="html"><![CDATA[<p>这是一篇测试博客</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在Hexo博客上添加本地Live 2D模型(.moc/.moc3)</title>
       <link href="/posts/de3e4889/"/>
       <url>/posts/de3e4889/</url>
