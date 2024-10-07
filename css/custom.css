@@ -51,24 +51,44 @@ animation: Gradient 10s ease infinite !important;
 
 /* 页脚与头图透明 */
 #footer {
-    background: transparent !important;
-  }
-  #page-header {
-    background: transparent !important;
-  }
-  
-  /* 白天模式遮罩透明 */
-  #footer::before {
-    background: transparent !important;
-  }
-  #page-header::before {
-    background: transparent !important;
-  }
-  
-  /* 夜间模式遮罩透明 */
-  [data-theme="dark"] #footer::before {
-    background: transparent !important;
-  }
-  [data-theme="dark"] #page-header::before {
-    background: transparent !important;
-  }
+  background: transparent !important;
+}
+#page-header {
+  background: transparent !important;
+}
+
+/* 白天模式遮罩透明 */
+#footer::before {
+  background: transparent !important;
+}
+#page-header::before {
+  background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/*自定义社交图标*/
+.custom_codeforces {
+  display: inline-block;
+  width: 20px;   /* 图标宽度 */
+  height: 20px;  /* 图标高度 */
+  background: url('/img/cf-favicon-96x96.png') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.custom_atcoder {
+  display: inline-block;
+  width: 20px;   /* 图标宽度 */
+  height: 20px;  /* 图标高度 */
+  background: url('/img/atcoder-icon-transparent.png') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+}
+
