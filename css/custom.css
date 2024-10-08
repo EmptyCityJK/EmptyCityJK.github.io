@@ -101,3 +101,11 @@ animation: Gradient 10s ease infinite !important;
   vertical-align: middle;
 }
 
+.custom_nowcoder {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('https://www.nowcoder.com/favicon.ico') no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+}
