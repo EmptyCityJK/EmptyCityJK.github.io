@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>如何在Github上删除误上传的Github</title>
+      <link href="/posts/97c3b937/"/>
+      <url>/posts/97c3b937/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如何在Github上删除误上传的Github"><a href="#如何在Github上删除误上传的Github" class="headerlink" title="如何在Github上删除误上传的Github"></a>如何在Github上删除误上传的Github</h1><ol><li><p>删除文件夹&#x2F;文件</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">rm</span> <span class="literal">-r</span> <span class="literal">--cached</span> deleteddir</span><br><span class="line">git <span class="built_in">rm</span> <span class="literal">-r</span> <span class="literal">--cached</span> deletedfile</span><br></pre></td></tr></table></figure></li><li><p>提交删除说明</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git commit <span class="literal">-m</span> <span class="string">&#x27;delete: xx&#x27;</span></span><br></pre></td></tr></table></figure></li><li><p>推送至GitHub</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git push <span class="literal">-u</span> origin main</span><br><span class="line">or</span><br><span class="line">git push</span><br></pre></td></tr></table></figure></li><li><p>进入Github检查</p></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>octal的XCPC题解</title>
       <link href="/posts/b57976d0/"/>
       <url>/posts/b57976d0/</url>
